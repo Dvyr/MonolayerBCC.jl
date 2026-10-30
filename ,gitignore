@@ -8,3 +8,6 @@ Thumbs.db
 # Data and Outputs (adjust based on your needs)
 /data/
 /output/
+
+# My private project notes
+/project_notes/
