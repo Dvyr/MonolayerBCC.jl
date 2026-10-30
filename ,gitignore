@@ -1,0 +1,10 @@
+# Julia specific
+# (Do NOT ignore Manifest.toml for scientific reproducibility!)
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Data and Outputs (adjust based on your needs)
+/data/
+/output/
