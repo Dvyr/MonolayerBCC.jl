@@ -3,15 +3,17 @@ module MonolayerBCC
 # Include files in order of architectural dependency
 include("Configuration/Configuration.jl")
 include("Lattice/Lattice.jl")
+include("Visualization/Visualization.jl")
 include("Moves/Moves.jl")
 include("MonteCarlo/MonteCarlo.jl")
 
 using .Configuration
 using .Lattice
+using .Visualization
 using .Moves
 using .MonteCarlo
 
-export run_demo
+export run_demo, plot_monolayer_3d, save_rotating_monolayer_3d
 
 function run_demo()
     # Initialize a clean starting state
