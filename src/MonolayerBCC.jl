@@ -2,10 +2,12 @@ module MonolayerBCC
 
 # Include files in order of architectural dependency
 include("Configuration/Configuration.jl")
+include("Lattice/Lattice.jl")
 include("Moves/Moves.jl")
 include("MonteCarlo/MonteCarlo.jl")
 
 using .Configuration
+using .Lattice
 using .Moves
 using .MonteCarlo
 

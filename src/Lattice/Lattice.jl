@@ -1,5 +1,7 @@
 module Lattice
 
+using ..Configuration: Chain, zigzag_chain
+
 # Export functions you want visible to other modules automatically
 export transform_coords, generate_neighbors
 

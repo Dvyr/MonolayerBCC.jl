@@ -1,6 +1,8 @@
 module Configuration
 
-export SimulationState, Coordinate
+export SimulationState, Coordinate, Chain
+
+include("chain.jl")
 
 struct Coordinate
 x::Int

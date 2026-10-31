@@ -1,10 +1,14 @@
 using MonolayerBCC
 using Test
 
-@testset "MonolayerBCC.jl Total Suite" begin
+@testset verbose=true "MonolayerBCC.jl Total Suite" begin
 
-    @testset "Configuration Tests" begin
+    @testset "Configuration and Chain Tests" begin
         include("test_configuration.jl")
+    end
+
+    @testset "Lattice Tests" begin
+        include("test_lattice.jl")
     end
 
     @testset "Moves Tests" begin
